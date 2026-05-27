@@ -1,6 +1,8 @@
+import createGraphics
+import psutil
 import os
-import pandas as pd
 import numpy as np
-import calculateMemoryUsage
+import pandas as pd
 
-calculateMemoryUsage.freeMemory()
+
+createGraphics.generateDash()

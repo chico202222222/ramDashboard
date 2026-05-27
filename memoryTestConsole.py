@@ -1,6 +1,4 @@
 import subprocess
-import os
-
 
 # here, I use the subprocess library to get the cmd.exe to return me the amount of total and free RAM memo
 # i have in my system. i use the "result_free" and "result_total" variables to convert them to int values, and then,
