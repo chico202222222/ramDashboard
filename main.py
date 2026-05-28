@@ -1,8 +1,6 @@
 import createGraphics
-import psutil
-import os
-import numpy as np
-import pandas as pd
 
-
-createGraphics.generateDash()
+try:
+    createGraphics.generateDash()
+except KeyboardInterrupt:
+    print("\nProgram interrupted.")
